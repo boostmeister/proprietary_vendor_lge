@@ -33,6 +33,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e615/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/e615/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/e615/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/lge/e615/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/lge/e615/proprietary/lib/libchromatix_hi542_preview.so:system/lib/libchromatix_hi542_preview.so \
     vendor/lge/e615/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
     vendor/lge/e615/proprietary/etc/firmware/wlan/volans/WCN1314_cfg.dat:system/etc/firmware/wlan/volans/WCN1314_cfg.dat \
