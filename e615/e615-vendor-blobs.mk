@@ -18,15 +18,15 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e615/proprietary/lib/hw/lights.msm7x27a.so:system/lib/hw/lights.msm7x27a.so \
     vendor/lge/e615/proprietary/lib/hw/sensors.m4ds.so:system/lib/hw/sensors.m4ds.so \
     vendor/lge/e615/proprietary/bin/sensord:system/bin/sensord \
-    vendor/lge/e610/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/lge/e610/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/lge/e610/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/lge/e610/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/lge/e610/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/lge/e610/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-    vendor/lge/e610/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-    vendor/lge/e610/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/lge/e610/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
+    vendor/lge/e615/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/lge/e615/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+    vendor/lge/e615/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
+    vendor/lge/e615/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+    vendor/lge/e615/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
+    vendor/lge/e615/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
+    vendor/lge/e615/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
+    vendor/lge/e615/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+    vendor/lge/e615/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/lge/e615/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/lge/e615/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/lge/e615/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
