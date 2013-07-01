@@ -127,4 +127,5 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/lge/e610/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/lge/e610/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
-    vendor/lge/e610/proprietary/lib/libaudcal.so:system/lib/libaudcal.so
+    vendor/lge/e610/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
+    vendor/lge/e610/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd 
