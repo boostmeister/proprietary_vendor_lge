@@ -105,7 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
     vendor/lge/e610/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/lge/e610/proprietary/lib/libOmxAc3HwDec.so:system/lib/libOmxAc3HwDec.so \
-    vendor/lge/e610/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
     vendor/lge/e610/proprietary/lib/libOmxIttiamVenc.so:system/lib/libOmxIttiamVenc.so \
     vendor/lge/e610/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lge/e610/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
@@ -128,4 +127,4 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/lge/e610/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/lge/e610/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-    vendor/lge/e610/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd 
+    vendor/lge/e610/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd
