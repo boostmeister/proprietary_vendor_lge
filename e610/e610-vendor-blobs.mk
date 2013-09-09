@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/lge/e610/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/lge/e610/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/lge/e610/proprietary/system/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
+    vendor/lge/e610/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
     vendor/lge/e610/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/lge/e610/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/lge/e610/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
