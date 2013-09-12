@@ -32,26 +32,19 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/lge/e610/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/lge/e610/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+    vendor/lge/e610/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/lge/e610/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/lge/e610/proprietary/system/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
     vendor/lge/e610/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/lge/e610/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/lge/e610/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/lge/e610/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
-    vendor/lge/e610/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
-    vendor/lge/e610/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/lge/e610/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-    vendor/lge/e610/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
-    vendor/lge/e610/proprietary/lib/libllvm-arm.so:system/lib/libllvm-arm.so \
-    vendor/lge/e610/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
     vendor/lge/e610/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
+    vendor/lge/e610/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/lge/e610/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-    vendor/lge/e610/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
     vendor/lge/e610/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/e610/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/e610/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/lge/e610/proprietary/lib/libchromatix_hi542_preview.so:system/lib/libchromatix_hi542_preview.so \
-    vendor/lge/e610/proprietary/lib/hw/vendor-camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
+    vendor/lge/e610/proprietary/lib/hw/vendor-camera.msm7x27a.so:system/lib/hw/vendor-camera.msm7x27a.so \
     vendor/lge/e610/proprietary/etc/firmware/wlan/volans/WCN1314_cfg.dat:system/etc/firmware/wlan/volans/WCN1314_cfg.dat \
     vendor/lge/e610/proprietary/etc/firmware/wlan/volans/WCN1314_qcom_wlan_nv.bin:system/etc/firmware/wlan/volans/WCN1314_qcom_wlan_nv.bin \
     vendor/lge/e610/proprietary/etc/firmware/wlan/volans/WCN1314_qcom_fw.bin:system/etc/firmware/wlan/volans/WCN1314_qcom_fw.bin \
