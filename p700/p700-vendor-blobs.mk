@@ -18,10 +18,15 @@
 # PREBUILT LIBRARIES THAT ARE NEEDED TO BUILD OPEN-SOURCE LIBRARIES -
 # -------------------------------------------------------------------
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+######################    DEPENDENCY SECTION  #######################
+PRODUCT_COPY_FILES += \
+    vendor/lge/p700/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
+    vendor/lge/p700/proprietary/lib/liboncrpc.so:obj/lib/liboncrpc.so \
+    vendor/lge/p700/proprietary/lib/libnv.so:obj/lib/libnv.so
+
 
 
 PRODUCT_COPY_FILES += \
-    vendor/lge/p700/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/lge/p700/proprietary/lib/hw/lights.msm7x27a.so:system/lib/hw/lights.msm7x27a.so \
     vendor/lge/p700/proprietary/lib/hw/sensors.u0.so:system/lib/hw/sensors.u0.so \
     vendor/lge/p700/proprietary/bin/sensord:system/bin/sensord \
@@ -126,5 +131,4 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/lge/p700/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/lge/p700/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
-    vendor/lge/e610/proprietary/lib/liboncrpc.so:obj/lib/liboncrpc.so \
-    vendor/lge/e610/proprietary/lib/libnv.so:obj/lib/libnv.so 
+    vendor/lge/p700/proprietary/lib/libaudcal.so:system/lib/libaudcal.so
