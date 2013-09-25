@@ -18,12 +18,10 @@
 # PREBUILT LIBRARIES THAT ARE NEEDED TO BUILD OPEN-SOURCE LIBRARIES -
 # -------------------------------------------------------------------
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-######################    DEPENDENCY SECTION  #######################
-PRODUCT_COPY_FILES += \
-    vendor/lge/e610/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so
 
 
 PRODUCT_COPY_FILES += \
+    vendor/lge/p700/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
     vendor/lge/p700/proprietary/lib/hw/lights.msm7x27a.so:system/lib/hw/lights.msm7x27a.so \
     vendor/lge/p700/proprietary/lib/hw/sensors.u0.so:system/lib/hw/sensors.u0.so \
     vendor/lge/p700/proprietary/bin/sensord:system/bin/sensord \
@@ -52,8 +50,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/libwcnftm.so:system/lib/libwcnftm.so \
     vendor/lge/p700/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/lge/p700/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
-    vendor/lge/e610/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
-    vendor/lge/e610/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
+    vendor/lge/p700/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
+    vendor/lge/p700/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
     vendor/lge/p700/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/lge/p700/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/lge/p700/proprietary/lib/libqmi.so:system/lib/libqmi.so \
