@@ -21,7 +21,7 @@
 
 
 PRODUCT_COPY_FILES += \
-    vendor/lge/p700/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
+    vendor/lge/p700/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/lge/p700/proprietary/lib/hw/lights.msm7x27a.so:system/lib/hw/lights.msm7x27a.so \
     vendor/lge/p700/proprietary/lib/hw/sensors.u0.so:system/lib/hw/sensors.u0.so \
     vendor/lge/p700/proprietary/bin/sensord:system/bin/sensord \
