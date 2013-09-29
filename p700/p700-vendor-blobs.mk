@@ -20,7 +20,10 @@
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ######################    DEPENDENCY SECTION  #######################
 PRODUCT_COPY_FILES += \
-    vendor/lge/e610/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so
+    vendor/lge/p700/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
+    vendor/lge/p700/proprietary/lib/liboncrpc.so:obj/lib/liboncrpc.so \
+    vendor/lge/p700/proprietary/lib/libnv.so:obj/lib/libnv.so
+
 
 
 PRODUCT_COPY_FILES += \
@@ -52,8 +55,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/libwcnftm.so:system/lib/libwcnftm.so \
     vendor/lge/p700/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/lge/p700/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
-    vendor/lge/e610/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
-    vendor/lge/e610/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
+    vendor/lge/p700/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
+    vendor/lge/p700/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
     vendor/lge/p700/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/lge/p700/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/lge/p700/proprietary/lib/libqmi.so:system/lib/libqmi.so \
@@ -128,6 +131,4 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/lge/p700/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/lge/p700/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
-    vendor/lge/e610/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
-    vendor/lge/e610/proprietary/lib/liboncrpc.so:obj/lib/liboncrpc.so \
-    vendor/lge/e610/proprietary/lib/libnv.so:obj/lib/libnv.so 
+    vendor/lge/p700/proprietary/lib/libaudcal.so:system/lib/libaudcal.so
