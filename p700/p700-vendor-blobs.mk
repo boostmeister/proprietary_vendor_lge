@@ -29,12 +29,16 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/hw/sensors.u0.so:system/lib/hw/sensors.u0.so \
     vendor/lge/p700/proprietary/bin/sensord:system/bin/sensord \
     vendor/lge/p700/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/lge/p700/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/lge/p700/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/lge/p700/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/lge/p700/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/lge/p700/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
+    vendor/lge/p700/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
     vendor/lge/p700/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/lge/p700/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
+    vendor/lge/p700/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+    vendor/lge/p700/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
     vendor/lge/p700/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/lge/p700/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/lge/p700/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
