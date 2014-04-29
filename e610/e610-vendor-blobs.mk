@@ -34,10 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/bin/rild:system/bin/rild \
     vendor/lge/e610/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lge/e610/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
-    vendor/lge/e610/proprietary/etc/firmware/wlan/volans/WCN1314_cfg.dat:system/etc/firmware/wlan/volans/WCN1314_cfg.dat \
-    vendor/lge/e610/proprietary/etc/firmware/wlan/volans/WCN1314_qcom_wlan_nv.bin:system/etc/firmware/wlan/volans/WCN1314_qcom_wlan_nv.bin \
-    vendor/lge/e610/proprietary/etc/firmware/wlan/volans/WCN1314_qcom_fw.bin:system/etc/firmware/wlan/volans/WCN1314_qcom_fw.bin \
-    vendor/lge/e610/proprietary/etc/firmware/wlan/volans/WCN1314_qcom_cfg.ini:system/etc/firmware/wlan/volans/WCN1314_qcom_cfg.ini \
     vendor/lge/e610/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/lge/e610/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/lge/e610/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
