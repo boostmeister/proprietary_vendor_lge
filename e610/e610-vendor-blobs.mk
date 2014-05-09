@@ -131,4 +131,5 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/lge/e610/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/lge/e610/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
-    vendor/lge/e610/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so
+    vendor/lge/e610/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+    vendor/lge/e610/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so
