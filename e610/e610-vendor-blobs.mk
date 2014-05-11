@@ -33,20 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/e610/proprietary/bin/rild:system/bin/rild \
     vendor/lge/e610/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/lge/e610/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
-    vendor/lge/e610/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-    vendor/lge/e610/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-    vendor/lge/e610/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/lge/e610/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/lge/e610/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/lge/e610/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/lge/e610/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/lge/e610/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
-    vendor/lge/e610/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/lge/e610/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
-    vendor/lge/e610/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
-    vendor/lge/e610/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-    vendor/lge/e610/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/lge/e610/proprietary/lib/hw/sensors.m4.so:system/lib/hw/sensors.m4.so \
     vendor/lge/e610/proprietary/lib/libbtnv.so:system/lib/libbtnv.so \
     vendor/lge/e610/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
@@ -130,5 +116,4 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/lge/e610/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/lge/e610/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
-    vendor/lge/e610/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
-    vendor/lge/e610/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so
+    vendor/lge/e610/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so
