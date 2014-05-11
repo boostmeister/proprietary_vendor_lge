@@ -47,7 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/lge/e610/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/lge/e610/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-    vendor/lge/e610/proprietary/lib/hw/lights.msm7x27a.so:system/lib/hw/lights.msm7x27a.so \
     vendor/lge/e610/proprietary/lib/hw/sensors.m4.so:system/lib/hw/sensors.m4.so \
     vendor/lge/e610/proprietary/lib/libbtnv.so:system/lib/libbtnv.so \
     vendor/lge/e610/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
@@ -111,7 +110,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/lge/e610/proprietary/lib/libOmxAc3HwDec.so:system/lib/libOmxAc3HwDec.so \
     vendor/lge/e610/proprietary/lib/libOmxIttiamVenc.so:system/lib/libOmxIttiamVenc.so \
-    vendor/lge/e610/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
+    vendor/lge/e610/proprietary/lib/hw/nfc.msm7x27a.so:system/lib/hw/nfc.msm7x27a.so \
     vendor/lge/e610/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
     vendor/lge/e610/proprietary/lib/libchromatix_hi542_default_video.so:system/lib/libchromatix_hi542_default_video.so \
     vendor/lge/e610/proprietary/lib/libgemini.so:system/lib/libgemini.so \

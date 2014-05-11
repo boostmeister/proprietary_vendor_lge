@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/libnv.so:obj/lib/libnv.so
 
 PRODUCT_COPY_FILES += \
-    vendor/lge/p700/proprietary/lib/hw/lights.msm7x27a.so:system/lib/hw/lights.msm7x27a.so \
     vendor/lge/p700/proprietary/lib/hw/sensors.u0.so:system/lib/hw/sensors.u0.so \
     vendor/lge/p700/proprietary/bin/sensord:system/bin/sensord \
     vendor/lge/p700/proprietary/bin/rmt_storage:system/bin/rmt_storage \
@@ -108,7 +107,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/libOmxAc3HwDec.so:system/lib/libOmxAc3HwDec.so \
     vendor/lge/p700/proprietary/lib/libOmxIttiamVenc.so:system/lib/libOmxIttiamVenc.so \
     vendor/lge/p700/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/lge/p700/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
+    vendor/lge/p700/proprietary/lib/hw/nfc.msm7x27a.so:system/lib/hw/nfc.msm7x27a.so \
     vendor/lge/p700/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/lge/p700/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
     vendor/lge/p700/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
