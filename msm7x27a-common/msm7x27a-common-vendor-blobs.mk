@@ -23,7 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm7x27a-common/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/lge/msm7x27a-common/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/lge/msm7x27a-common/proprietary/lib/egl/libEGL_adreno200.so:system/ib/egl/libEGL_adreno200.so \
+    vendor/lge/msm7x27a-common/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/lge/msm7x27a-common/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/lge/msm7x27a-common/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/lge/msm7x27a-common/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
